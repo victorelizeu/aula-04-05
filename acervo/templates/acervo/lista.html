@@ -1,8 +1,9 @@
 {% extends 'acervo/base.html' %}
 
 {% block conteudo %}
-{% for l in lista %}
 <ul>
+    {% for l in lista %}
+
     <li>
         {{ l.nome }}
         <br>
