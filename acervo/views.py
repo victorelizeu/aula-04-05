@@ -21,4 +21,4 @@ def novo_livro(request):
     else:
         book = LivroForms()
 
-    return render(request, "acervo/form.html")
+    return render(request, "acervo/form.html", {"novo": book})
