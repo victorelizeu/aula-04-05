@@ -1,0 +1,29 @@
+{% extends 'acervo/base.html' %}
+
+{% block conteudo %}
+{% for l in lista %}
+<ul>
+    <li>
+        {{ l.nome }}
+        <br>
+        <br>
+        <br>
+        {{ l.autor }}
+        <br>
+        <br>
+        <br>
+        {{ l.descricao }}
+        <br>
+        <br>
+        <br>
+        {{ l.categorias }}
+        <br>
+        <br>
+        <br>
+        {{ l.tipo }}
+    </li>
+    {% empty %}
+    <h2>Sem livros</h2>
+    {% endfor %}
+</ul>
+{% endblock %}

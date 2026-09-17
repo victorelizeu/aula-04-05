@@ -1,0 +1,53 @@
+[33mcommit 426d637146ac7858339dae05dff1fe25488b87aa[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 21:21:32 2026 -0300
+
+    feat: urls.py do app adicionado.
+
+[33mcommit fa384d8051e1ffa2efced71916e2c100d6f556de[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 21:19:10 2026 -0300
+
+    feat: urls criadas no urls.py do projeto.
+
+[33mcommit e7dfec22a7aeb8e97131460ec87cb18c4b095b1d[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 21:17:19 2026 -0300
+
+    feat: forms.py, views.py e admin.py adicionados.
+
+[33mcommit b9470417bcaa0310bf781a17bf7baeadc168fe48[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:59:31 2026 -0300
+
+    fix: Models corrigido.
+
+[33mcommit 89664b9c4a141ac3cac967fe3bfc2fabf4d02778[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:55:33 2026 -0300
+
+    feat: Models.py adicionado
+
+[33mcommit 60bc66c6749b1739234130fa7e238f8f7d034419[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:26:42 2026 -0300
+
+    feat: .env removida definitivamente
+
+[33mcommit bf9b4b0f8c9987feb903ba01a09e0f68e832e9ce[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:25:37 2026 -0300
+
+    feat: .env removido
+
+[33mcommit aca3ecfb82954a2c9c1f4f865d76b992afac3c51[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:24:36 2026 -0300
+
+    feat: App criado e gitignore adicionado
+
+[33mcommit 5cb4ed4a1f87acbb3da79fef37327296a4aea4a9[m
+Author: victorelizeu <joaogamer759@gmail.com>
+Date:   Wed Sep 16 20:03:19 2026 -0300
+
+    feat: Raíz do projeto
