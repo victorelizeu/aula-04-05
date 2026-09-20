@@ -1,0 +1,22 @@
+{% extends 'acervo/base.html' %}
+
+{% block conteudo %}
+    <h2>Resultados da pesquisa para: "{{ query }}"</h2>
+    
+    <a href="{% url 'lista' %}">Voltar para a lista completa</a>
+    <br><br>
+
+    <ul>
+        {% for l in lista %}
+        <li>
+            <strong>Nome:</strong> {{ l.nome }} <br>
+            <strong>Autor:</strong> {{ l.autor }} <br>
+            <strong>Categoria:</strong> {{ l.categorias }} <br>
+            <strong>Tipo:</strong> {{ l.tipo }}
+        </li>
+        <hr>
+        {% empty %}
+        <li>Nenhum livro encontrado com o termo "{{ query }}".</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

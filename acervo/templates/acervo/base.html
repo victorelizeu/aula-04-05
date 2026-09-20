@@ -10,6 +10,11 @@
     <header>
         <h1>Portal Livros</h1>
         <a href="{% url 'lista' %}">Lista</a> <a href="{% url 'novo' %}">Postagem_Livro</a>
+
+        <form action="{% url 'busca' %}" method="get">
+            <input type="text" name="q" placeholder="Buscar por nome, tipo ou categoria..." value="{{ query }}">
+            <button type="submit">Buscar</button>
+        </form>
     </header>
     <main>
         {% block conteudo %}
