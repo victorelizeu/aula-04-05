@@ -38,7 +38,7 @@ class Categoria(models.Model):
     ]
 
     categorias = models.CharField(
-        max_length=300, choices=estado, blank=False, null=False)
+        max_length=300, choices=estado, blank=False)
 
     def __str__(self):
         return self.categorias
