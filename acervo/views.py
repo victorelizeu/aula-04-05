@@ -13,7 +13,7 @@ def lista_livros_solo(request):
 
     if q:
         livros = livros.filter(
-            Q(nome__icontains=q) | Q(tipo__icontains=q) | Q(categorias__icontains=q)
+            Q(nome__icontains=q), Q(tipo__icontains=q), Q(categorias__icontains=q)
         )
 
     return render(request, "acervo/lista_pesquisa.html", {"lista": livros, "query": q})
