@@ -5,3 +5,16 @@ body {
 button {
     cursor: pointer;
 }
+
+.errorlist {
+    color: #ffffff;
+    background-color: #e74c3c;
+    padding: 8px 12px;
+    border-radius: 4px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.errorlist li {
+    color: #ffffff;
+}
